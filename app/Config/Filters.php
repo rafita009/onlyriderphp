@@ -69,6 +69,8 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
+           // 'csrf' => ['except' => ['roles/guardaPermisos']]  // Temporalmente desactiva CSRF para esta ruta
+
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
